@@ -7,12 +7,24 @@
 		<link rel="stylesheet" href="style/style.css" />
 	</head>
 	<body>
-		<h2>Astronomy Picture of the Day</h2>
-
+		<div id="header">
+			<h2>Astronomy Picture of the Day</h2>
+			<div id="divDate">
+				<input type="date" id="inputedDate" />
+				<input type="submit" id="submitDate" value="pesquisar" />
+			</div>
+		</div>
 		<h1 id="img-title"></h1>
 
 		<div id="img-div">
 			<img src="" alt="" id="img-content" />
+			<iframe
+				src=""
+				frameborder="0"
+				id="video-content"
+				class="hide"
+				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
+			></iframe>
 			<p id="date"></p>
 		</div>
 		<p id="explanation"></p>

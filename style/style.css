@@ -13,8 +13,43 @@ body {
 }
 
 h2 {
-	font-size: 25px;
+	font-size: 30px;
 	margin-top: 20px;
+}
+
+#header {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background-color: black;
+	width: 100%;
+	padding: 20px 0;
+}
+
+#divDate {
+	display: flex;
+}
+
+#inputedDate {
+	padding-left: 5px;
+	border: 2px solid white;
+	border-right: 0px;
+	border-radius: 20px 0 0 20px;
+	font-size: 15px;
+	background-color: rgba(0, 0, 0, 0);
+	color: white;
+}
+
+#submitDate {
+	padding-right: 5px;
+	padding-left: 5px;
+	border: 2px solid white;
+	border-left: 0px;
+	border-radius: 0 20px 20px 0;
+	background-color: white
+	color: black;
+	font-size: 15px;
+	
 }
 
 h1 {
@@ -34,11 +69,23 @@ h1 {
 	width: 95%;
 }
 
+#video-content {
+	border: 4px solid white;
+	border-radius: 40px;
+	width: 960px;
+	height: 540px;
+}
+
 #explanation {
 	font-size: 20px;
 	margin-bottom: 20px;
+	padding: 10px 40px;
 }
 
 #copyright {
 	margin-bottom: 20px;
+}
+
+.hide {
+	display: none;
 }
