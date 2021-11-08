@@ -1,36 +1,34 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-	<head>
-		<meta charset="UTF-8" />
-		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
-		<title>Astronomy Picture of the Day</title>
-		<link rel="stylesheet" href="style/style.css" />
-	</head>
-	<body>
-		<div id="header">
-			<h2>Astronomy Picture of the Day</h2>
-			<div id="divDate">
-				<input type="date" id="inputedDate" />
-				<input type="submit" id="submitDate" value="pesquisar" />
-			</div>
-		</div>
-		<h1 id="img-title"></h1>
 
-		<div id="img-div">
-			<img src="" alt="" id="img-content" />
-			<iframe
-				src=""
-				frameborder="0"
-				id="video-content"
-				class="hide"
-				allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"
-			></iframe>
-			<p id="date"></p>
-		</div>
-		<p id="explanation"></p>
-		<p id="copyright"></p>
+<head>
+	<meta charset="UTF-8" />
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	<title>Astronomy Picture of the Day</title>
+	<link rel="stylesheet" href="style/style.css" />
+</head>
 
-		<script src="js/request.js"></script>
-		<script src="js/getElement.js"></script>
-	</body>
+<body>
+	<div id="header">
+		<h2>Astronomy Picture of the Day</h2>
+		<div id="divDate">
+			<input type="date" id="inputedDate" />
+			<input type="submit" id="submitDate" value="pesquisar" />
+		</div>
+	</div>
+	<h1 id="img-title"></h1>
+
+	<div id="img-div">
+		<img src="" alt="" id="img-content" />
+		<iframe src="" frameborder="0" id="video-content" class="hide"
+			allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture; fullscreen"></iframe>
+		<p id="date"></p>
+	</div>
+	<p id="explanation"></p>
+	<p id="copyright"></p>
+
+	<script src="js/request.js"></script>
+	<script src="js/getElement.js"></script>
+</body>
+
 </html>
